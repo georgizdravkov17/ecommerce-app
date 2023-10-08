@@ -1,0 +1,24 @@
+.message{
+    padding: 0.5rem;
+    background-color: var(--golden-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+}
+
+.message__title{
+    font-size: 16px;
+}
+
+@media screen and (min-width: 720px){
+  .message__title{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 920px){
+    .message__title{
+        font-size: 20px;
+      }
+} 

@@ -1,0 +1,70 @@
+.list{
+    padding: 1rem;
+    min-height: 60vh;
+}
+
+.list__title{
+    margin-bottom: 1rem;
+}
+
+.list__table{
+    width: 100%;
+    overflow-x: auto;
+}
+
+table{
+    min-height: 50vh;
+}
+
+
+td{
+    padding: 0.1rem;
+    text-align: center;
+}
+
+
+td, tr{
+    border: 1px solid black;
+}
+
+.form-container{
+    padding: 1rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.form > *{
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.form__title{
+    text-align: center;
+    border: none;
+}
+
+@media screen and (min-width: 720px){
+   .form{
+    padding: 1.5rem;
+    width: 400px;
+   }
+}
+
+@media screen and (min-width: 920px){
+   .form{
+    padding: 2rem;
+    width: 500px;
+   }
+}
+
+
+
+

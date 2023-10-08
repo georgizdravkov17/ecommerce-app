@@ -1,0 +1,19 @@
+.about-info{
+    padding: 1rem;
+}
+
+.about-info > *{
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 720px){
+    .about-info{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 920px){
+   .about-info{
+    padding: 3rem;
+   }
+}

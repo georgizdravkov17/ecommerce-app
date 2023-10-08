@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>Dashboard</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/common/reset.css">
+    <link rel="stylesheet" href="./css/common/variables.css">
+    <link rel="stylesheet" href="./css/common/common-styles.css">
+    <link rel="stylesheet" href="./css/components/header.css">
+    <link rel="stylesheet" href="./css/components/message.css">
+    <link rel="stylesheet" href="./css/components/hero.css">
+    <link rel="stylesheet" href="./css/pages/dashboard.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
+    <!--JavaScript-->
+    <script type="module" src="./js/components/header.js"></script>
+    <script type="module" src="./js/pages/dashboard.js" defer></script>
+     <!--Font Awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <!--Header-->
+     <header class="header">
+
+        <div class="header__logo">
+            <img src="images/logo.png" alt="Logo" width="50px" height="50px">
+        </div>
+
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-list-item"><a href="/">Home</a></li>
+                <li class="header__nav-list-item"><a href="about.html">About</a></li>
+                <li class="header__nav-list-item"><a href="woman.html">Woman</a></li>
+                <li class="header__nav-list-item"><a href="man.html">Man</a></li>
+                <li class="header__nav-list-item"><a href="contacts.html">Contacts</a></li>
+                <li class="header__nav-list-item header__nav-list-dashboard-link hidden"><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <span class="header__nav-close-button">
+                <i class="fa fa-close"></i>
+            </span>
+        </nav>
+
+        <div class="header__buttons">
+            <button class="header__button header__profile-button"><i class="fa fa-user"></i></button>
+            <button class="header__button header__cart-button"><i class="fa fa-shopping-cart"></i></button>
+            <button class="header__button header__logout-button">Logout</button>
+            <button class="header__button header__register-button">Register</button>
+            <button class="header__button header__login-button">Login</button>
+            <button class="header__button header__menu-button"><i class="fa fa-bars"></i></button>
+        </div>
+
+    </header>
+
+    <!--Main content-->
+    <main class="main">
+
+        <!--Message section-->
+        <section class="message">
+            <h1 class="message__title">Безплатна доставка при поръчки над 90 лв.</h1>
+        </section>
+
+        <!--Hero section-->
+         <section class="hero"></section>
+
+         <!--Users table section-->
+         <section class="list">
+             <h1 class="list__title">Users List</h1>
+                  <table class="list__table users-table">
+                      <thead class="list__table-head user-table__head">
+                          <td>ID</td>
+                          <td>First name</td>
+                          <td>Last name</td>
+                          <td>Email</td>
+                          <td>Username</td>
+                          <td>Administrator</td>
+                          <td>Created at</td>
+                          <td>Delete</td>
+                          <td>Edit</td>
+                      </thead>
+                      <tbody class="list__table-body users-table__body">
+
+                      </tbody>
+                  </table>
+         </section>
+
+         <!--Products table section-->
+         <section class="list">
+              <h1 class="list__title">Products List</h1>
+              <table class="list__table products-table">
+                 <thead class="list__table-head">
+                     <td>ID</td>
+                     <td>Name</td>
+                     <td>Price</td>
+                     <td>Quantity</td>
+                     <td>Category</td>
+                     <td>Orderes times</td>
+                     <td>Delete</td>
+                     <td>Edit</td>
+                 </thead>
+                 <tbody class="list__table-body products-table__body">
+                     
+                 </tbody>
+              </table>
+         </section>
+
+         <!--Create user form-->
+
+         <section class="form-container">
+              <form class="user-form form">
+                    <h1 class="form__title">Create User</h1>
+                    <input type="text" name="first-name" id="first-name" placeholder="First name" required>
+                    <input type="text" name="last-name" id="last-name" placeholder="Last name" required>
+                    <input type="text" name="username" id="username" placeholder="Username" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <select name="gender" id="gender">
+                        <option>Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <select name="role" id="role">
+                        <option>Select role</option>
+                        <option value="administrator">Administrator</option>
+                        <option value="user">User</option>
+                    </select>
+                    <button class="form__submit">Create</button>
+              </form>
+         </section>
+
+         <!--Create product form-->
+
+         <section class="form-container">
+             <form class="product-form form">
+                  <h1 class="form__title">Create Product</h1>
+                  <input type="text" name="name" id="name" placeholder="Product name" required>
+                  <input type="text" name="img-url" id="img-url" placeholder="Image Link" required>
+                  <input type="number" name="price" id="price" placeholder="Price" required>
+                  <select name="category" id="category">
+                     <option>Select category</option>
+                     <option value="woman">Woman</option>
+                     <option value="man">Man</option>
+                  </select>
+                  <input type="number" name="quantity" id="quantity" placeholder="Quantity" required>
+                  <button class="form__button">Create</button>
+             </form>
+         </section>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__social-media">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+
+        <div class="footer__menus">
+
+            <div class="footer__menu">
+                <h3 class="footer__menu-title">Contacts with us</h3>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-list-item">Адрес: гр. София, ул. Пиротска 54</li>
+                    <li class="footer__menu-list-item">Телефон: 0897912394/08849761934</li>
+                    <li class="footer__menu-list-item">Еmail: perfumessfromdubai@gmail.com</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__menu">
+                <h3 class="footer__menu-title">Menu</h3>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-list-item"><a href="/">Home</a></li>
+                    <li class="footer__menu-list-item"><a href="about.html">About</a></li>
+                    <li class="footer__menu-list-item"><a href="woman.html">Woman</a></li>
+                    <li class="footer__menu-list-item"><a href="man.html">Man</a></li>
+                    <li class="footer__menu-list-item"><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__menu">
+                <h3 class="footer__menu-title">Menu</h3>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-list-item"><a href="cart.html">Cart</a></li>
+                    <li class="footer__menu-list-item"><a href="profile.html">Profile</a></li>
+                    <li class="footer__menu-list-item"><a href="login.html">Sign in</a></li>
+                    <li class="footer__menu-list-item"><a href="register.html">Sign up</a></li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+
+        <p class="footer__copyright">COPYRIGHT © 2022 PERFUMES FROM DUBAI
+        </p>
+    </footer>
+
+
+    <!--Templates-->
+
+    <template id="row-template">
+          <tr class="user-row">
+              <td class="user-row__id"></td>
+              <td class="user-row__first-name"></td>
+              <td class="user-row__last-name"></td>
+              <td class="user-row__email"></td>
+              <td class="user-row__username"></td>
+              <td class="user-row__administrator"></td>
+              <td class="user-row__created-at"></td>
+              <td class="user-row__delete-button">
+                  <i class="fa fa-remove"></i>
+              </td>
+              <td class="user-row__edit-button">
+                  <i class="fa fa-edit"></i>
+              </td>
+          </tr>
+          <tr class="product-row">
+            <td class="product-row__id"></td>
+              <td class="product-row__name"></td>
+              <td class="product-row__price"></td>
+              <td class="product-row__quantity"></td>
+              <td class="product-row__category"></td>
+              <td class="product-row__ordered-times"></td>
+              <td class="product-row__delete-button">
+                  <i class="fa fa-remove"></i>
+              </td>
+              <td class="product-row__edit-button">
+                  <i class="fa fa-edit"></i>
+              </td>
+          </tr>
+    </template>
+
+</body>
+</html>

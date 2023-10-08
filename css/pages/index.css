@@ -1,0 +1,44 @@
+.categories{
+    padding: 2rem;
+}
+
+.category:hover{
+  cursor: pointer;
+}
+
+.banner{
+    background-image: url('../../images/home-hero-bg.jpg');
+}
+
+.info_banner{
+    background-image: url('../../images/info-banner-bg.jpg');
+}
+
+@media screen and (min-width: 720px){
+    .categories{
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .category{
+         transition: scale 0.5s;
+    }
+    
+    .category:hover{
+        scale: 1.1;
+    }
+}
+
+@media screen and (min-width: 920px){
+    .categories{
+        padding: 4rem;
+        gap: 3rem;
+    }
+
+    .category{
+        width: 40%;
+    }
+}

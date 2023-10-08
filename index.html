@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>Home</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/components/header.css">
+    <link rel="stylesheet" href="./css/components/message.css">
+    <link rel="stylesheet" href="./css/components/hero.css">
+    <link rel="stylesheet" href="./css/components/info-banner.css">
+    <link rel="stylesheet" href="./css/components/banner.css">
+    <link rel="stylesheet" href="./css/components/pop-up.css">
+    <link rel="stylesheet" href="./css/components/products-container.css">
+    <link rel="stylesheet" href="./css/components/overlay.css">
+    <link rel="stylesheet" href="./css/components/product-card.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
+    <link rel="stylesheet" href="./css/common/reset.css">
+    <link rel="stylesheet" href="./css/common/variables.css">
+    <link rel="stylesheet" href="./css/common/common-styles.css">
+    <link rel="stylesheet" href="./css/pages/index.css">
+    <!--JavaScript-->
+    <script type="module" src="./js/components/header.js" defer></script>
+    <script type="module" src="./js/components/popUp.js" defer></script>
+    <script type="module" src="./js/pages/index.js" defer></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+         <!--Header-->
+         <header class="header">
+
+            <div class="header__logo">
+                <img src="images/logo.png" alt="Logo" width="50px" height="50px">
+            </div>
+    
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-list-item"><a href="/">Home</a></li>
+                    <li class="header__nav-list-item"><a href="about.html">About</a></li>
+                    <li class="header__nav-list-item"><a href="woman.html">Woman</a></li>
+                    <li class="header__nav-list-item"><a href="man.html">Man</a></li>
+                    <li class="header__nav-list-item"><a href="contacts.html">Contacts</a></li>
+                    <li class="header__nav-list-item header__nav-list-dashboard-link hidden"><a href="dashboard.html">Dashboard</a></li>
+                </ul>
+                <span class="header__nav-close-button">
+                    <i class="fa fa-close"></i>
+                </span>
+            </nav>
+    
+            <div class="header__buttons">
+                <button class="header__button header__profile-button"><i class="fa fa-user"></i></button>
+                <button class="header__button header__cart-button"><i class="fa fa-shopping-cart"></i></button>
+                <button class="header__button header__logout-button">Logout</button>
+                <button class="header__button header__register-button">Register</button>
+                <button class="header__button header__login-button">Login</button>
+                <button class="header__button header__menu-button"><i class="fa fa-bars"></i></button>
+            </div>
+    
+        </header>
+
+    <!--Main content-->
+    <main class="main">
+
+        <!--Message section-->
+
+        <section class="message">
+            <h1 class="message__title">Безплатна доставка при поръчки над 90 лв.</h1>
+        </section>
+
+        <!--Hero section-->
+
+        <section class="hero"></section>
+
+        <!--Categories section-->
+        <section class="categories">
+              <div class="category category-man">
+                   <img src="./images/man-category-image.jpg" alt="Man">
+              </div>
+              <div class="category category-woman">
+                <img src="./images/women-category-image.jpg" alt="Woman">
+           </div>
+        </section>
+
+        <!--Woman Best Sellers section-->
+
+        <section class="products-container">
+            <div class="products-container__header">
+                <h2 class="products-container__title">Woman Best Sellers</h2>
+                <button class="products-container__see-more-button woman-see-more-button">See more</button>
+            </div>
+             <div class="products-container__content woman-best-sellers">
+                 
+             </div>
+        </section>
+
+        <!--Info banner-->
+
+        <section class="info-banner">
+            <div class="info-banner__image">
+                <img src="./images/info-banner-img.png" alt="Baner picture">
+            </div>
+            <div class="info-banner__text">
+                <h1 class="info-banner__title">Perfumes from Dubai
+                </h1>
+                <p class="info-banner__text">Perfumes from Dubai е бързо разрастващ се Българо-Дубайски парфюмериен бранд, вдъхновен от многобройните луксозни арабски аромати, доставящи удоволствие на хората по целия свят. Нашата основна цел е клиентите да бъдат добре обслужени и да се върнат отново при нас, това е една от причините за бързото разрастване на бранда.</p>
+                <button class="info-banner__button">Прочети още</button>
+            </div>
+        </section>
+
+       <!--Man Best Sellers section-->
+
+       <section class="products-container">
+        <div class="products-container__header">
+            <h2 class="products-container__title">Man Best Sellers</h2>
+            <button class="products-container__see-more-button man-see-more-button">See more</button>
+        </div>
+         <div class="products-container__content man-best-sellers">
+             
+         </div>
+    </section>
+
+        <!--Banner section-->
+
+        <section class="banner">
+            <div class="banner__image">
+                <img src="./images/banner-icon-1.svg" alt="banner-image">
+            </div>
+            <div class="banner__image">
+                <img src="./images/banner-icon-1.svg" alt="banner-image">
+            </div>
+            <div class="banner__image">
+                <img src="./images/banner-icon-1.svg" alt="banner-image">
+            </div>
+            <div class="banner__image">
+                <img src="./images/banner-icon-1.svg" alt="banner-image">
+            </div>
+            <div class="banner__image">
+                <img src="./images/banner-icon-1.svg" alt="banner-image">
+            </div>
+            <div class="banner__image">
+                <img src="./images/banner-icon-1.svg" alt="banner-image">
+            </div>
+        </section>
+
+        <!--Pop-up-->
+
+        <div class="pop-up hidden">
+             <div class="pop-up__overlay overlay"></div>
+             <div class="pop-up__info">
+                  <h1 class="pop-up__title">Pop-up title</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fuga odio laudantium quia voluptatum repellendus ab. Illum animi adipisci a?</p>
+                  <p>Unde ducimus, obcaecati accusamus voluptate laborum dolorem quisquam hic impedit numquam at officia quasi magnam assumenda voluptas earum praesentium deserunt.</p>
+                  <button class="po-up__button">See more</button>
+                  <span class="pop-up__close-button">
+                    <i class="fa fa-close"></i>
+                 </span>
+             </div>
+        </div>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__social-media">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+
+        <div class="footer__menus">
+
+            <div class="footer__menu">
+                <h3 class="footer__menu-title">Contacts with us</h3>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-list-item">Адрес: гр. София, ул. Пиротска 54</li>
+                    <li class="footer__menu-list-item">Телефон: 0897912394/08849761934</li>
+                    <li class="footer__menu-list-item">Еmail: perfumessfromdubai@gmail.com</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__menu">
+                <h3 class="footer__menu-title">Menu</h3>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-list-item"><a href="/">Home</a></li>
+                    <li class="footer__menu-list-item"><a href="about.html">About</a></li>
+                    <li class="footer__menu-list-item"><a href="woman.html">Woman</a></li>
+                    <li class="footer__menu-list-item"><a href="man.html">Man</a></li>
+                    <li class="footer__menu-list-item"><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__menu">
+                <h3 class="footer__menu-title">Menu</h3>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-list-item"><a href="cart.html">Cart</a></li>
+                    <li class="footer__menu-list-item"><a href="profile.html">Profile</a></li>
+                    <li class="footer__menu-list-item"><a href="login.html">Sign in</a></li>
+                    <li class="footer__menu-list-item"><a href="register.html">Sign up</a></li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+
+        <p class="footer__copyright">COPYRIGHT © 2022 PERFUMES FROM DUBAI
+        </p>
+    </footer>
+
+    <!--Templates-->
+
+    <template id="product-card-template">
+        <div class="product-card">
+             <div class="product-card__img-container">
+                  <img class="product-card__img" src="" alt="">
+             </div>
+             <div class="product-card__content">
+                 <h2 class="product-card__name"></h2>
+                 <h2 class="product-card__rating">
+                     <i class="fa fa-star-half-full"></i>
+                     <i class="fa fa-star-half-full"></i>
+                     <i class="fa fa-star-half-full"></i>
+                     <i class="fa fa-star-half-full"></i>
+                     <i class="fa fa-star-half-full"></i>
+                 </h2>
+                 <h2 class="product-card__price"></h2>
+                 <h2 class="product-card__category"></h2>
+                 <button class="product-card__buy-button">
+                     <span>Buy</span>
+                     <i class="fa fa-shopping-basket"></i>
+                 </button>
+                 <div class="product-card__buttons">
+                     <button class="product-card__button product-card__favorites-button">
+                         <i class="fa fa-heart"></i>
+                     </button>
+                     <button class="product-card__button product-card__save-button">
+                          <i class="fa fa-bookmark"></i>
+                     </button>
+                 </div>
+             </div>
+        </div>
+    </template>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+{
+  "users": [
+    {
+      "id": "0a3fa669-cfb2-3c52-5236-aa82eea00a3b",
+      "firstName": "Georgi",
+      "lastName": "Georgiev",
+      "username": "goshu99",
+      "email": "goshu99@abv.bg",
+      "password": "georgizdravkov1",
+      "gender": "male",
+      "savedProducts": [],
+      "favoritesProducts": [
+        {
+          "id": "3aatf152-d306-bed9-4765-171577a56e47",
+          "img": "https://cdncloudcart.com/30443/products/images/578/pink-schimmer-secret-intense-643504e4e2175_600x600.jpeg?1681196324",
+          "name": "Motorola 14",
+          "price": 200,
+          "category": "man"
+        },
+        {
+          "id": "3a8df152-f306-bed9-4765-131577a96e47",
+          "img": "https://cdncloudcart.com/30443/products/images/689/club-de-nuit-intense-woman-649eb60c1d8d2_600x600.jpeg?1688122907",
+          "name": "Huawei 14",
+          "price": 1000,
+          "category": "man"
+        }
+      ],
+      "cartProducts": [
+        {
+          "id": "3aatf152-d306-bed9-4765-171577a56e47",
+          "img": "https://cdncloudcart.com/30443/products/images/578/pink-schimmer-secret-intense-643504e4e2175_600x600.jpeg?1681196324",
+          "name": "Motorola 14",
+          "price": 200,
+          "category": "man"
+        },
+        {
+          "id": "97d70086-9399-7194-faf8-2de68f6148f4",
+          "img": "https://cdncloudcart.com/30443/products/images/690/supremacy-pink-pour-femme-649eb99747911_600x600.png?1688331566",
+          "name": "Iphone 14",
+          "price": 2000,
+          "category": "woman"
+        }
+      ],
+      "ordres": [],
+      "isAdmin": true,
+      "createdAt": "2023-09-28T21:47:36.202Z"
+    },
+    {
+      "id": "74be9208-bbf6-47cc-6b83-9a2dc849ca74",
+      "firstName": "Jeko",
+      "lastName": "Tonchev",
+      "username": "jeko_tonchev99",
+      "email": "jeko_tonchev99@abv.bg",
+      "password": "jeko135",
+      "gender": "male",
+      "savedProducts": [],
+      "favoritesProducts": [],
+      "cartProducts": [],
+      "ordres": [],
+      "isAdmin": false,
+      "createdAt": "2023-09-29T15:10:04.419Z"
+    },
+    {
+      "id": "8e38133e-855e-c174-2dfa-2f628ea2463b",
+      "firstName": "Georgi",
+      "lastName": "Zdravkov",
+      "username": "georgi_zdravkov17",
+      "email": "georgizdravkov1706@gmail.com",
+      "password": "georgizdravkov1706",
+      "gender": "male",
+      "savedProducts": [],
+      "favoritesProducts": [],
+      "cartProducts": [],
+      "ordres": [],
+      "isAdmin": false,
+      "createdAt": "2023-09-29T15:12:27.406Z"
+    },
+    {
+      "id": "679cb76f-7b1d-5c02-c199-dbaf4a006a50",
+      "firstName": "Todor",
+      "lastName": "Zdravkov",
+      "username": "todor_zdravkov",
+      "email": "todor_zdravkov99@abv.bg",
+      "password": "todorzdravkov",
+      "gender": "male",
+      "savedProducts": [],
+      "favoritesProducts": [],
+      "cartProducts": [],
+      "ordres": [],
+      "isAdmin": false,
+      "createdAt": "2023-09-29T15:13:01.665Z"
+    },
+    {
+      "id": "31340747-4ac5-89c4-0e44-9d01bd4ff7d3",
+      "firstName": "Ivaylo",
+      "lastName": "Yordanov",
+      "email": "ivaylo_yordanov@gmail.com",
+      "username": "ivaylo_yordanov",
+      "password": "ivayloyordanov",
+      "gender": "male",
+      "isAdmin": true,
+      "cartProducts": [],
+      "favoritesproducts": [],
+      "savedProducts": [],
+      "createdAt": "2023-09-29T16:03:18.556Z",
+      "orders": []
+    },
+    {
+      "id": "75d3537c-7849-adf3-e9d7-d40573c89f9e",
+      "firstName": "Diyan",
+      "lastName": "Nedkov",
+      "username": "diyan_nedkoff",
+      "email": "diyan_nedkov98@gmail.com",
+      "password": "123456789",
+      "gender": "male",
+      "isAdmin": true,
+      "savedProducts": [],
+      "favoritesProducts": [],
+      "cartProducts": [],
+      "createdAt": "2023-10-05T15:08:45.640Z"
+    }
+  ],
+  "products": [
+    {
+      "img": "https://cdncloudcart.com/30443/products/images/576/very-velvet-rouge-643502ba1ab80_600x600.png?1681195737",
+      "id": "3a8df152-d306-bty9-4765-171577a56e47",
+      "name": "Alcatel 14",
+      "price": 300,
+      "category": "woman",
+      "quantity": 20,
+      "orderedTimes": 20
+    },
+    {
+      "img": "https://cdncloudcart.com/30443/products/images/690/supremacy-pink-pour-femme-649eb99747911_600x600.png?1688331566",
+      "id": "97d70086-9399-7194-faf8-2de68f6148f4",
+      "name": "Iphone 14",
+      "price": 2000,
+      "category": "woman",
+      "quantity": 20,
+      "orderedTimes": 200
+    },
+    {
+      "img": "https://cdncloudcart.com/30443/products/images/689/club-de-nuit-intense-woman-649eb60c1d8d2_600x600.jpeg?1688122907",
+      "id": "3a8df152-f306-bed9-4765-131577a96e47",
+      "name": "Huawei 14",
+      "price": 1000,
+      "category": "man",
+      "quantity": 20,
+      "orderedTimes": 80
+    },
+    {
+      "img": "https://cdncloudcart.com/30443/products/images/578/pink-schimmer-secret-intense-643504e4e2175_600x600.jpeg?1681196324",
+      "id": "3aatf152-d306-bed9-4765-171577a56e47",
+      "name": "Motorola 14",
+      "price": 200,
+      "category": "man",
+      "quantity": 20,
+      "orderedTimes": 10
+    },
+    {
+      "img": "https://cdncloudcart.com/30443/products/images/576/very-velvet-rouge-643502ba1ab80_600x600.png?1681195737",
+      "id": "3a8df152-d306-bty9-4765-171577a56e47",
+      "name": "Alcatel 14",
+      "price": 300,
+      "category": "woman",
+      "quantity": 20,
+      "orderedTimes": 20
+    },
+    {
+      "img": "https://cdncloudcart.com/30443/products/images/440/candid-63b990a450cfb.webp?1673105572",
+      "id": "3a8df152-d306-bed9-te65-171577a56e47",
+      "name": "Samsung 14",
+      "price": 400,
+      "category": "man",
+      "quantity": 20,
+      "orderedTimes": 50
+    },
+    {
+      "id": "bc02d97a-9948-2f15-2fc4-b06659f78c83",
+      "name": "Parfume 2",
+      "img": "https://cdncloudcart.com/30443/products/images/734/lahdath-64ccb79f8a83e_600x600.png?1692392340",
+      "price": 250,
+      "category": "woman",
+      "quantity": 15,
+      "orderedTimes": 0
+    },
+    {
+      "id": "72b9c7d0-5610-a68b-2abe-2d1f48777dcd",
+      "name": "Parfume 3",
+      "img": "https://cdncloudcart.com/30443/products/images/734/lahdath-64ccb79f8a83e_600x600.png?1692392340",
+      "price": 500,
+      "category": "woman",
+      "quantity": 10,
+      "orderedTimes": 0
+    },
+    {
+      "id": "57c9389d-750a-899b-2c0f-ed3d0e99d51e",
+      "name": "Parfume 5",
+      "img": "https://cdncloudcart.com/30443/products/images/734/lahdath-64ccb79f8a83e_600x600.png?1692392340",
+      "price": 35,
+      "category": "woman",
+      "quantity": 5,
+      "orderedTimes": 0
+    }
+  ]
+}
